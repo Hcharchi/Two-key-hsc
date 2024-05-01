@@ -1,0 +1,124 @@
+@import "~@flaticon/flaticon-uicons/css/all/all";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+#Checkbox1 {
+  accent-color: red;
+}
+#Checkbox2 {
+  accent-color: yellow;
+}
+#Checkbox3 {
+  accent-color: hotpink;
+}
+#Checkbox4 {
+  accent-color: green;
+}
+.fc .fc-daygrid-body-unbalanced .fc-daygrid-day-events {
+  min-height: 0;
+}
+.fc .fc-button-primary {
+  background-color: transparent;
+  border-color: transparent;
+  color: #0a0a0a;
+}
+.fc .fc-button-primary:hover {
+  background-color: transparent;
+  border-color: transparent;
+  color: #0a0a0a;
+}
+
+.fc .fc-scrollgrid-liquid {
+  border: none;
+}
+.fc .fc-col-header-cell-cushion:active {
+  color: royalblue;
+  background-color: red;
+  /* padding: 10px; */
+}
+.fc-day-today > div > a {
+  /* background: #FFF !important; */
+  /* border: none !important; */
+  /* color: blue ; */
+  background-color: blue;
+  border-radius: 50%;
+  color: white;
+  /* padding: 100px; */
+  /* margin-bottom: 5px; */
+  /* padding: 5px; */
+}
+.fc-day-today > div > div > a {
+  background-color: blue;
+  border-radius: 50%;
+  color: white;
+  /* padding: 100px; */
+}
+.fc th {
+  display: table-cell;
+  vertical-align: middle;
+  /* padding: 1000px; */
+}
+/* .fc .fc-col-header-cell-cushion {
+  padding: 10px;
+  margin: 4px;
+} */
+.fc .fc-toolbar.fc-header-toolbar {
+  border-bottom: 2px solid rgb(229, 231, 235);
+  padding-bottom: 2.4vh;
+}
+.fc .fc-button-primary:disabled {
+  border: 2px solid rgb(229, 231, 235);
+  color: black;
+  background-color: transparent;
+  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+}
+.fc-direction-ltr .fc-timegrid-slot-label-frame {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .fc .fc-col-header-cell-cushion {
+    padding: 5px;
+    margin: 4px;
+  }
+  .fc .fc-toolbar {
+    display: flex;
+    flex-direction: column;
+  }
+  .fc .fc-col-header-cell-cushion {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: scroll;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .fc .fc-col-header-cell-cushion {
+    padding: 30px 10px 30px 10px;
+    margin: 4px;
+  }
+}
